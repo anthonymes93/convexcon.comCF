@@ -1,0 +1,258 @@
+{
+    "version": "0.4",
+    "title": "Global Kit Styles",
+    "type": "section",
+    "metadata": {
+        "template_type": "global-styles",
+        "include_in_zip": "1",
+        "elementor_pro_required": "1",
+        "additional_template_information": [
+            "These are the global theme styles configured through the Elementor Theme Styles area."
+        ],
+        "wp_page_template": "default"
+    },
+    "content": [],
+    "page_settings": {
+        "default_generic_fonts": "Sans-serif",
+        "container_width": {
+            "unit": "px",
+            "size": "1170",
+            "sizes": []
+        },
+        "viewport_md": "",
+        "viewport_lg": "",
+        "custom_colors": [
+            {
+                "_id": "7e22ef9f",
+                "title": "Background",
+                "color": "#262626"
+            },
+            {
+                "_id": "5c7d43f7",
+                "title": "Light Title",
+                "color": "#FFFFFF"
+            },
+            {
+                "_id": "2c50a125",
+                "title": "Light Text Body",
+                "color": "#AAAAAA"
+            }
+        ],
+        "system_colors": [
+            {
+                "_id": "primary",
+                "title": "Primary",
+                "color": "#000000"
+            },
+            {
+                "_id": "secondary",
+                "title": "Secondary",
+                "color": "#555555"
+            },
+            {
+                "_id": "text",
+                "title": "Text",
+                "color": "#555555"
+            },
+            {
+                "_id": "accent",
+                "title": "Accent",
+                "color": "#F7C51E"
+            }
+        ],
+        "system_typography": [
+            {
+                "_id": "primary",
+                "title": "Primary",
+                "typography_typography": "custom",
+                "typography_font_family": "Poppins",
+                "typography_font_weight": "600",
+                "typography_font_size": {
+                    "unit": "px",
+                    "size": 40,
+                    "sizes": []
+                },
+                "typography_line_height": {
+                    "unit": "px",
+                    "size": 55,
+                    "sizes": []
+                }
+            },
+            {
+                "_id": "secondary",
+                "title": "Secondary",
+                "typography_typography": "custom",
+                "typography_font_family": "Lato",
+                "typography_font_weight": "300",
+                "typography_font_size": {
+                    "unit": "px",
+                    "size": 14,
+                    "sizes": []
+                },
+                "typography_line_height": {
+                    "unit": "px",
+                    "size": 34,
+                    "sizes": []
+                },
+                "typography_letter_spacing": {
+                    "unit": "px",
+                    "size": 12,
+                    "sizes": []
+                }
+            },
+            {
+                "_id": "text",
+                "title": "Text",
+                "typography_typography": "custom",
+                "typography_font_family": "Lato",
+                "typography_font_weight": "400",
+                "typography_font_size": {
+                    "unit": "px",
+                    "size": 15,
+                    "sizes": []
+                },
+                "typography_line_height": {
+                    "unit": "px",
+                    "size": 26,
+                    "sizes": []
+                }
+            },
+            {
+                "_id": "accent",
+                "title": "Accent",
+                "typography_typography": "custom",
+                "typography_font_family": "Roboto",
+                "typography_font_weight": "500"
+            }
+        ],
+        "custom_typography": [],
+        "body_color": "#555555",
+        "body_typography_typography": "custom",
+        "body_typography_font_family": "Lato",
+        "body_typography_font_size": {
+            "unit": "px",
+            "size": 15,
+            "sizes": []
+        },
+        "body_typography_font_weight": "400",
+        "body_typography_line_height": {
+            "unit": "px",
+            "size": 28,
+            "sizes": []
+        },
+        "h1_color": "#000000",
+        "h1_typography_typography": "custom",
+        "h1_typography_font_family": "Poppins",
+        "h1_typography_font_size": {
+            "unit": "px",
+            "size": 60,
+            "sizes": []
+        },
+        "h1_typography_font_weight": "600",
+        "h1_typography_line_height": {
+            "unit": "px",
+            "size": 75,
+            "sizes": []
+        },
+        "h2_color": "#000000",
+        "h2_typography_typography": "custom",
+        "h2_typography_font_family": "Poppins",
+        "h2_typography_font_size": {
+            "unit": "px",
+            "size": 40,
+            "sizes": []
+        },
+        "h2_typography_font_weight": "600",
+        "h2_typography_line_height": {
+            "unit": "px",
+            "size": 55,
+            "sizes": []
+        },
+        "h3_color": "#000000",
+        "h3_typography_typography": "custom",
+        "h3_typography_font_family": "Poppins",
+        "h3_typography_font_size": {
+            "unit": "px",
+            "size": 30,
+            "sizes": []
+        },
+        "h3_typography_font_weight": "600",
+        "h3_typography_line_height": {
+            "unit": "px",
+            "size": 45,
+            "sizes": []
+        },
+        "h4_color": "#000000",
+        "h4_typography_typography": "custom",
+        "h4_typography_font_family": "Poppins",
+        "h4_typography_font_size": {
+            "unit": "px",
+            "size": 28,
+            "sizes": []
+        },
+        "h4_typography_line_height": {
+            "unit": "px",
+            "size": 42,
+            "sizes": []
+        },
+        "h5_color": "#000000",
+        "h5_typography_typography": "custom",
+        "h5_typography_font_size": {
+            "unit": "px",
+            "size": 24,
+            "sizes": []
+        },
+        "h5_typography_font_weight": "600",
+        "h5_typography_line_height": {
+            "unit": "px",
+            "size": 34,
+            "sizes": []
+        },
+        "h6_color": "#000000",
+        "h6_typography_typography": "custom",
+        "h6_typography_font_family": "Poppins",
+        "h6_typography_font_size": {
+            "unit": "px",
+            "size": 20,
+            "sizes": []
+        },
+        "h6_typography_font_weight": "600",
+        "h6_typography_line_height": {
+            "unit": "em",
+            "size": 35,
+            "sizes": []
+        },
+        "site_name": "Gedungkit",
+        "site_description": "Contractor &amp; Building Construction Theme",
+        "page_title_selector": "h1.entry-title",
+        "activeItemIndex": 1,
+        "link_normal_color": "#F7C51E",
+        "link_normal_typography_typography": "custom",
+        "link_normal_typography_font_family": "Lato",
+        "link_normal_typography_font_size": {
+            "unit": "px",
+            "size": 14,
+            "sizes": []
+        },
+        "link_normal_typography_font_weight": "400",
+        "link_normal_typography_line_height": {
+            "unit": "px",
+            "size": 24,
+            "sizes": []
+        },
+        "button_border_border": "solid",
+        "button_hover_border_border": "solid",
+        "__globals__": {
+            "link_normal_color": "globals\/colors?id=accent",
+            "body_typography_typography": "",
+            "link_normal_typography_typography": "",
+            "button_background_color": "globals\/colors?id=accent",
+            "button_text_color": "globals\/colors?id=5c7d43f7",
+            "button_border_color": "globals\/colors?id=accent",
+            "button_hover_background_color": "globals\/colors?id=primary",
+            "button_hover_text_color": "globals\/colors?id=5c7d43f7",
+            "button_hover_border_color": "globals\/colors?id=primary",
+            "link_hover_color": "globals\/colors?id=primary"
+        }
+    }
+}

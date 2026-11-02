@@ -1,0 +1,1041 @@
+{
+    "manifest_version": "1.0.16",
+    "title": "Gedung - Contractor & Building Construction Kit",
+    "page_builder": "elementor",
+    "kit_version": "1.0.0",
+    "templates": [
+        {
+            "name": "Global Kit Styles",
+            "screenshot": "screenshots\/global-kit-styles.jpg",
+            "source": "templates\/global.json",
+            "preview_url": "https:\/\/themesawesome.com",
+            "type": "section",
+            "category": "page",
+            "metadata": {
+                "template_type": "global-styles",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "additional_template_information": [
+                    "These are the global theme styles configured through the Elementor Theme Styles area."
+                ]
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Home Page",
+            "screenshot": "screenshots\/home-page.jpg",
+            "source": "templates\/home-page.json",
+            "preview_url": "https:\/\/gedungkit.themesawesome.com\/template-kit\/home-page\/",
+            "type": "section",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-home",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "About Page",
+            "screenshot": "screenshots\/about-page.jpg",
+            "source": "templates\/about-page.json",
+            "preview_url": "https:\/\/gedungkit.themesawesome.com\/template-kit\/about-page\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Project Page",
+            "screenshot": "screenshots\/project-page.jpg",
+            "source": "templates\/project-page.json",
+            "preview_url": "https:\/\/gedungkit.themesawesome.com\/template-kit\/project-page\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Single Project",
+            "screenshot": "screenshots\/single-project.jpg",
+            "source": "templates\/single-project.json",
+            "preview_url": "https:\/\/gedungkit.themesawesome.com\/template-kit\/single-project\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Blog Page",
+            "screenshot": "screenshots\/blog-page.jpg",
+            "source": "templates\/blog-page.json",
+            "preview_url": "https:\/\/gedungkit.themesawesome.com\/template-kit\/blog-page\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Single Post",
+            "screenshot": "screenshots\/single-post.jpg",
+            "source": "templates\/single-post.json",
+            "preview_url": "https:\/\/gedungkit.themesawesome.com\/template-kit\/single-post\/",
+            "type": "section",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-post",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Contact Page",
+            "screenshot": "screenshots\/contact-page.jpg",
+            "source": "templates\/contact-page.json",
+            "preview_url": "https:\/\/gedungkit.themesawesome.com\/template-kit\/contact-page\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "404 Page",
+            "screenshot": "screenshots\/404-page.jpg",
+            "source": "templates\/404-page.json",
+            "preview_url": "https:\/\/gedungkit.themesawesome.com\/template-kit\/404-page\/",
+            "type": "section",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-404",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Archive",
+            "screenshot": "screenshots\/archive.jpg",
+            "source": "templates\/archive.json",
+            "preview_url": "https:\/\/gedungkit.themesawesome.com\/?elementor_library=archive",
+            "type": "archive",
+            "category": "page",
+            "metadata": {
+                "template_type": "archive-blog",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "elementor_library_type": "archive",
+                "elementor_pro_conditions": [
+                    "include\/archive\/post_archive"
+                ],
+                "additional_template_information": [
+                    "This is a \"Archive\" template for Elementor Pro.",
+                    "This template will display on: Posts Archive."
+                ]
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Footer",
+            "screenshot": "screenshots\/footer.jpg",
+            "source": "templates\/footer.json",
+            "preview_url": "https:\/\/gedungkit.themesawesome.com\/?elementor_library=footer",
+            "type": "footer",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-footer",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "elementor_library_type": "footer",
+                "elementor_pro_conditions": [
+                    "include\/general"
+                ],
+                "additional_template_information": [
+                    "This is a \"Footer\" template for Elementor Pro.",
+                    "This template will display on: Entire Site."
+                ]
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Header Default",
+            "screenshot": "screenshots\/header-default.jpg",
+            "source": "templates\/header-default.json",
+            "preview_url": "https:\/\/gedungkit.themesawesome.com\/?elementor_library=header-default",
+            "type": "header",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-header",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "elementor_library_type": "header",
+                "elementor_pro_conditions": [
+                    "include\/general"
+                ],
+                "additional_template_information": [
+                    "This is a \"Header\" template for Elementor Pro.",
+                    "This template will display on: Entire Site."
+                ]
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Header Alternative",
+            "screenshot": "screenshots\/header-alternative.jpg",
+            "source": "templates\/header-alternative.json",
+            "preview_url": "https:\/\/gedungkit.themesawesome.com\/?elementor_library=header-alternative",
+            "type": "header",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-header",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "elementor_library_type": "header",
+                "elementor_pro_conditions": [
+                    "include\/singular\/page\/61"
+                ],
+                "additional_template_information": [
+                    "This is a \"Header\" template for Elementor Pro.",
+                    "This template will display on: Page #61."
+                ]
+            },
+            "elementor_pro_required": true
+        }
+    ],
+    "required_plugins": [
+        {
+            "name": "Elementor Pro",
+            "version": "3.0.5",
+            "file": "elementor-pro\/elementor-pro.php",
+            "author": "Elementor.com"
+        },
+        {
+            "name": "Elementor",
+            "version": "3.0.12",
+            "file": "elementor\/elementor.php",
+            "author": "Elementor.com"
+        }
+    ],
+    "images": [
+        {
+            "filename": "construction-carpenter-worker.jpg",
+            "thumbnail_url": "https:\/\/gedungkit.themesawesome.com\/wp-content\/uploads\/sites\/142\/2020\/10\/construction-carpenter-worker-600x400.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home-page.json",
+                    "name": "Home Page"
+                }
+            ],
+            "filesize": 464528,
+            "dimensions": [
+                2000,
+                1333
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/image-XB6SL4A"
+        },
+        {
+            "filename": "icon-1.png",
+            "thumbnail_url": "https:\/\/gedungkit.themesawesome.com\/wp-content\/uploads\/sites\/142\/2018\/03\/icon-1.png",
+            "templates": [
+                {
+                    "source": "templates\/home-page.json",
+                    "name": "Home Page"
+                }
+            ],
+            "filesize": 4626,
+            "dimensions": [
+                173,
+                150
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/gedungkit.themesawesome.com\/wp-content\/uploads\/sites\/142\/2018\/03\/icon-1.png"
+        },
+        {
+            "filename": "icon-3.png",
+            "thumbnail_url": "https:\/\/gedungkit.themesawesome.com\/wp-content\/uploads\/sites\/142\/2018\/03\/icon-3.png",
+            "templates": [
+                {
+                    "source": "templates\/home-page.json",
+                    "name": "Home Page"
+                }
+            ],
+            "filesize": 4431,
+            "dimensions": [
+                178,
+                150
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/gedungkit.themesawesome.com\/wp-content\/uploads\/sites\/142\/2018\/03\/icon-3.png"
+        },
+        {
+            "filename": "icon-2.png",
+            "thumbnail_url": "https:\/\/gedungkit.themesawesome.com\/wp-content\/uploads\/sites\/142\/2018\/03\/icon-2.png",
+            "templates": [
+                {
+                    "source": "templates\/home-page.json",
+                    "name": "Home Page"
+                }
+            ],
+            "filesize": 3624,
+            "dimensions": [
+                150,
+                150
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/gedungkit.themesawesome.com\/wp-content\/uploads\/sites\/142\/2018\/03\/icon-2.png"
+        },
+        {
+            "filename": "yellow-border.png",
+            "thumbnail_url": "https:\/\/gedungkit.themesawesome.com\/wp-content\/uploads\/sites\/142\/2020\/10\/yellow-border.png",
+            "templates": [
+                {
+                    "source": "templates\/home-page.json",
+                    "name": "Home Page"
+                }
+            ],
+            "filesize": 177,
+            "dimensions": [
+                158,
+                203
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/gedungkit.themesawesome.com\/wp-content\/uploads\/sites\/142\/2020\/10\/yellow-border.png"
+        },
+        {
+            "filename": "house-under-construction-and-rolls-of-electrical-diagrams-or-blueprints-building-home-concept.jpg",
+            "thumbnail_url": "https:\/\/gedungkit.themesawesome.com\/wp-content\/uploads\/sites\/142\/2020\/10\/house-under-construction-and-rolls-of-electrical-diagrams-or-blueprints-building-home-concept-600x400.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home-page.json",
+                    "name": "Home Page"
+                }
+            ],
+            "filesize": 294766,
+            "dimensions": [
+                2000,
+                1333
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/image-PVL54A8"
+        },
+        {
+            "filename": "dot-pattern.png",
+            "thumbnail_url": "https:\/\/gedungkit.themesawesome.com\/wp-content\/uploads\/sites\/142\/2020\/10\/dot-pattern.png",
+            "templates": [
+                {
+                    "source": "templates\/home-page.json",
+                    "name": "Home Page"
+                }
+            ],
+            "filesize": 142,
+            "dimensions": [
+                178,
+                234
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/gedungkit.themesawesome.com\/wp-content\/uploads\/sites\/142\/2020\/10\/dot-pattern.png"
+        },
+        {
+            "filename": "modern-house-exterior-2.jpg",
+            "thumbnail_url": "https:\/\/gedungkit.themesawesome.com\/wp-content\/uploads\/sites\/142\/2020\/10\/modern-house-exterior-2-600x400.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home-page.json",
+                    "name": "Home Page"
+                },
+                {
+                    "source": "templates\/project-page.json",
+                    "name": "Project Page"
+                },
+                {
+                    "source": "templates\/single-project.json",
+                    "name": "Single Project"
+                },
+                {
+                    "source": "templates\/footer.json",
+                    "name": "Footer"
+                }
+            ],
+            "filesize": 614269,
+            "dimensions": [
+                2000,
+                1333
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/image-W5BGMDQ"
+        },
+        {
+            "filename": "modern-house-exterior-1.jpg",
+            "thumbnail_url": "https:\/\/gedungkit.themesawesome.com\/wp-content\/uploads\/sites\/142\/2020\/10\/modern-house-exterior-1-600x367.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home-page.json",
+                    "name": "Home Page"
+                },
+                {
+                    "source": "templates\/project-page.json",
+                    "name": "Project Page"
+                },
+                {
+                    "source": "templates\/single-project.json",
+                    "name": "Single Project"
+                },
+                {
+                    "source": "templates\/footer.json",
+                    "name": "Footer"
+                }
+            ],
+            "filesize": 603576,
+            "dimensions": [
+                2000,
+                1222
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/image-VHJVCXE"
+        },
+        {
+            "filename": "architectural-house-exterior.jpg",
+            "thumbnail_url": "https:\/\/gedungkit.themesawesome.com\/wp-content\/uploads\/sites\/142\/2020\/10\/architectural-house-exterior-600x400.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home-page.json",
+                    "name": "Home Page"
+                },
+                {
+                    "source": "templates\/project-page.json",
+                    "name": "Project Page"
+                },
+                {
+                    "source": "templates\/single-project.json",
+                    "name": "Single Project"
+                },
+                {
+                    "source": "templates\/footer.json",
+                    "name": "Footer"
+                }
+            ],
+            "filesize": 607328,
+            "dimensions": [
+                2000,
+                1333
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/image-7HVDWWS"
+        },
+        {
+            "filename": "modern-house-exterior.jpg",
+            "thumbnail_url": "https:\/\/gedungkit.themesawesome.com\/wp-content\/uploads\/sites\/142\/2020\/10\/modern-house-exterior-600x343.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home-page.json",
+                    "name": "Home Page"
+                },
+                {
+                    "source": "templates\/project-page.json",
+                    "name": "Project Page"
+                },
+                {
+                    "source": "templates\/single-project.json",
+                    "name": "Single Project"
+                },
+                {
+                    "source": "templates\/footer.json",
+                    "name": "Footer"
+                }
+            ],
+            "filesize": 615299,
+            "dimensions": [
+                2000,
+                1142
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/image-E3A7NAJ"
+        },
+        {
+            "filename": "hadid-residential-buildings-at-citylife-milan.jpg",
+            "thumbnail_url": "https:\/\/gedungkit.themesawesome.com\/wp-content\/uploads\/sites\/142\/2020\/10\/hadid-residential-buildings-at-citylife-milan-600x400.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home-page.json",
+                    "name": "Home Page"
+                },
+                {
+                    "source": "templates\/project-page.json",
+                    "name": "Project Page"
+                },
+                {
+                    "source": "templates\/footer.json",
+                    "name": "Footer"
+                }
+            ],
+            "filesize": 371484,
+            "dimensions": [
+                2000,
+                1333
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/image-AWRFYE9"
+        },
+        {
+            "filename": "3d-rendering-beautiful-contemporary-house-near-resort-and-river-at-sunset.jpg",
+            "thumbnail_url": "https:\/\/gedungkit.themesawesome.com\/wp-content\/uploads\/sites\/142\/2020\/10\/3d-rendering-beautiful-contemporary-house-near-resort-and-river-at-sunset-600x336.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home-page.json",
+                    "name": "Home Page"
+                },
+                {
+                    "source": "templates\/project-page.json",
+                    "name": "Project Page"
+                },
+                {
+                    "source": "templates\/footer.json",
+                    "name": "Footer"
+                }
+            ],
+            "filesize": 506858,
+            "dimensions": [
+                2000,
+                1120
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/image-78RZEAN"
+        },
+        {
+            "filename": "ava2.png",
+            "thumbnail_url": "https:\/\/gedungkit.themesawesome.com\/wp-content\/uploads\/sites\/142\/2020\/10\/ava2.png",
+            "templates": [
+                {
+                    "source": "templates\/home-page.json",
+                    "name": "Home Page"
+                },
+                {
+                    "source": "templates\/about-page.json",
+                    "name": "About Page"
+                }
+            ],
+            "filesize": 234247,
+            "dimensions": [
+                400,
+                400
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/gedungkit.themesawesome.com\/wp-content\/uploads\/sites\/142\/2020\/10\/ava2.png"
+        },
+        {
+            "filename": "ava1.png",
+            "thumbnail_url": "https:\/\/gedungkit.themesawesome.com\/wp-content\/uploads\/sites\/142\/2020\/10\/ava1.png",
+            "templates": [
+                {
+                    "source": "templates\/home-page.json",
+                    "name": "Home Page"
+                },
+                {
+                    "source": "templates\/about-page.json",
+                    "name": "About Page"
+                }
+            ],
+            "filesize": 206312,
+            "dimensions": [
+                400,
+                400
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/gedungkit.themesawesome.com\/wp-content\/uploads\/sites\/142\/2020\/10\/ava1.png"
+        },
+        {
+            "filename": "partner-07light.png",
+            "thumbnail_url": "https:\/\/gedungkit.themesawesome.com\/wp-content\/uploads\/sites\/142\/2018\/03\/partner-07light.png",
+            "templates": [
+                {
+                    "source": "templates\/home-page.json",
+                    "name": "Home Page"
+                }
+            ],
+            "filesize": 1451,
+            "dimensions": [
+                167,
+                50
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/gedungkit.themesawesome.com\/wp-content\/uploads\/sites\/142\/2018\/03\/partner-07light.png"
+        },
+        {
+            "filename": "partner-05light.png",
+            "thumbnail_url": "https:\/\/gedungkit.themesawesome.com\/wp-content\/uploads\/sites\/142\/2018\/03\/partner-05light.png",
+            "templates": [
+                {
+                    "source": "templates\/home-page.json",
+                    "name": "Home Page"
+                }
+            ],
+            "filesize": 1068,
+            "dimensions": [
+                150,
+                36
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/gedungkit.themesawesome.com\/wp-content\/uploads\/sites\/142\/2018\/03\/partner-05light.png"
+        },
+        {
+            "filename": "partner-03light.png",
+            "thumbnail_url": "https:\/\/gedungkit.themesawesome.com\/wp-content\/uploads\/sites\/142\/2018\/03\/partner-03light.png",
+            "templates": [
+                {
+                    "source": "templates\/home-page.json",
+                    "name": "Home Page"
+                }
+            ],
+            "filesize": 1391,
+            "dimensions": [
+                167,
+                39
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/gedungkit.themesawesome.com\/wp-content\/uploads\/sites\/142\/2018\/03\/partner-03light.png"
+        },
+        {
+            "filename": "partner-02light.png",
+            "thumbnail_url": "https:\/\/gedungkit.themesawesome.com\/wp-content\/uploads\/sites\/142\/2018\/03\/partner-02light.png",
+            "templates": [
+                {
+                    "source": "templates\/home-page.json",
+                    "name": "Home Page"
+                }
+            ],
+            "filesize": 1271,
+            "dimensions": [
+                154,
+                37
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/gedungkit.themesawesome.com\/wp-content\/uploads\/sites\/142\/2018\/03\/partner-02light.png"
+        },
+        {
+            "filename": "partner-01light.png",
+            "thumbnail_url": "https:\/\/gedungkit.themesawesome.com\/wp-content\/uploads\/sites\/142\/2018\/03\/partner-01light.png",
+            "templates": [
+                {
+                    "source": "templates\/home-page.json",
+                    "name": "Home Page"
+                }
+            ],
+            "filesize": 1242,
+            "dimensions": [
+                162,
+                41
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/gedungkit.themesawesome.com\/wp-content\/uploads\/sites\/142\/2018\/03\/partner-01light.png"
+        },
+        {
+            "filename": "partner-10light.png",
+            "thumbnail_url": "https:\/\/gedungkit.themesawesome.com\/wp-content\/uploads\/sites\/142\/2018\/03\/partner-10light.png",
+            "templates": [
+                {
+                    "source": "templates\/home-page.json",
+                    "name": "Home Page"
+                }
+            ],
+            "filesize": 1089,
+            "dimensions": [
+                163,
+                45
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/gedungkit.themesawesome.com\/wp-content\/uploads\/sites\/142\/2018\/03\/partner-10light.png"
+        },
+        {
+            "filename": "engineer-foreman-and-worker-discussing-in-building-construction-site.jpg",
+            "thumbnail_url": "https:\/\/gedungkit.themesawesome.com\/wp-content\/uploads\/sites\/142\/2020\/10\/engineer-foreman-and-worker-discussing-in-building-construction-site-600x400.jpg",
+            "templates": [
+                {
+                    "source": "templates\/about-page.json",
+                    "name": "About Page"
+                }
+            ],
+            "filesize": 358374,
+            "dimensions": [
+                2000,
+                1333
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-A87UFQT"
+        },
+        {
+            "filename": "professional-engineer-looking-at-building-under-construction.jpg",
+            "thumbnail_url": "https:\/\/gedungkit.themesawesome.com\/wp-content\/uploads\/sites\/142\/2020\/10\/professional-engineer-looking-at-building-under-construction-600x400.jpg",
+            "templates": [
+                {
+                    "source": "templates\/about-page.json",
+                    "name": "About Page"
+                }
+            ],
+            "filesize": 516934,
+            "dimensions": [
+                2000,
+                1333
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-59LBNXG"
+        },
+        {
+            "filename": "team-3.jpg",
+            "thumbnail_url": "https:\/\/gedungkit.themesawesome.com\/wp-content\/uploads\/sites\/142\/2018\/03\/team-3.jpg",
+            "templates": [
+                {
+                    "source": "templates\/about-page.json",
+                    "name": "About Page"
+                }
+            ],
+            "filesize": 38007,
+            "dimensions": [
+                484,
+                628
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/gedungkit.themesawesome.com\/wp-content\/uploads\/sites\/142\/2018\/03\/team-3.jpg"
+        },
+        {
+            "filename": "team-4s.jpg",
+            "thumbnail_url": "https:\/\/gedungkit.themesawesome.com\/wp-content\/uploads\/sites\/142\/2018\/03\/team-4s.jpg",
+            "templates": [
+                {
+                    "source": "templates\/about-page.json",
+                    "name": "About Page"
+                }
+            ],
+            "filesize": 43118,
+            "dimensions": [
+                484,
+                628
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/gedungkit.themesawesome.com\/wp-content\/uploads\/sites\/142\/2018\/03\/team-4s.jpg"
+        },
+        {
+            "filename": "team-1.jpg",
+            "thumbnail_url": "https:\/\/gedungkit.themesawesome.com\/wp-content\/uploads\/sites\/142\/2018\/03\/team-1.jpg",
+            "templates": [
+                {
+                    "source": "templates\/about-page.json",
+                    "name": "About Page"
+                }
+            ],
+            "filesize": 36594,
+            "dimensions": [
+                484,
+                628
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/gedungkit.themesawesome.com\/wp-content\/uploads\/sites\/142\/2018\/03\/team-1.jpg"
+        },
+        {
+            "filename": "team-2s.jpg",
+            "thumbnail_url": "https:\/\/gedungkit.themesawesome.com\/wp-content\/uploads\/sites\/142\/2018\/03\/team-2s.jpg",
+            "templates": [
+                {
+                    "source": "templates\/about-page.json",
+                    "name": "About Page"
+                }
+            ],
+            "filesize": 41859,
+            "dimensions": [
+                484,
+                628
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/gedungkit.themesawesome.com\/wp-content\/uploads\/sites\/142\/2018\/03\/team-2s.jpg"
+        },
+        {
+            "filename": "partner-10.png",
+            "thumbnail_url": "https:\/\/gedungkit.themesawesome.com\/wp-content\/uploads\/sites\/142\/2018\/03\/partner-10.png",
+            "templates": [
+                {
+                    "source": "templates\/about-page.json",
+                    "name": "About Page"
+                }
+            ],
+            "filesize": 1089,
+            "dimensions": [
+                163,
+                45
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/gedungkit.themesawesome.com\/wp-content\/uploads\/sites\/142\/2018\/03\/partner-10.png"
+        },
+        {
+            "filename": "partner-07.png",
+            "thumbnail_url": "https:\/\/gedungkit.themesawesome.com\/wp-content\/uploads\/sites\/142\/2018\/03\/partner-07.png",
+            "templates": [
+                {
+                    "source": "templates\/about-page.json",
+                    "name": "About Page"
+                }
+            ],
+            "filesize": 1451,
+            "dimensions": [
+                167,
+                50
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/gedungkit.themesawesome.com\/wp-content\/uploads\/sites\/142\/2018\/03\/partner-07.png"
+        },
+        {
+            "filename": "partner-05.png",
+            "thumbnail_url": "https:\/\/gedungkit.themesawesome.com\/wp-content\/uploads\/sites\/142\/2018\/03\/partner-05.png",
+            "templates": [
+                {
+                    "source": "templates\/about-page.json",
+                    "name": "About Page"
+                }
+            ],
+            "filesize": 1068,
+            "dimensions": [
+                150,
+                36
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/gedungkit.themesawesome.com\/wp-content\/uploads\/sites\/142\/2018\/03\/partner-05.png"
+        },
+        {
+            "filename": "partner-03.png",
+            "thumbnail_url": "https:\/\/gedungkit.themesawesome.com\/wp-content\/uploads\/sites\/142\/2018\/03\/partner-03.png",
+            "templates": [
+                {
+                    "source": "templates\/about-page.json",
+                    "name": "About Page"
+                }
+            ],
+            "filesize": 1391,
+            "dimensions": [
+                167,
+                39
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/gedungkit.themesawesome.com\/wp-content\/uploads\/sites\/142\/2018\/03\/partner-03.png"
+        },
+        {
+            "filename": "partner-02.png",
+            "thumbnail_url": "https:\/\/gedungkit.themesawesome.com\/wp-content\/uploads\/sites\/142\/2018\/03\/partner-02.png",
+            "templates": [
+                {
+                    "source": "templates\/about-page.json",
+                    "name": "About Page"
+                }
+            ],
+            "filesize": 1271,
+            "dimensions": [
+                154,
+                37
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/gedungkit.themesawesome.com\/wp-content\/uploads\/sites\/142\/2018\/03\/partner-02.png"
+        },
+        {
+            "filename": "partner-01.png",
+            "thumbnail_url": "https:\/\/gedungkit.themesawesome.com\/wp-content\/uploads\/sites\/142\/2018\/03\/partner-01.png",
+            "templates": [
+                {
+                    "source": "templates\/about-page.json",
+                    "name": "About Page"
+                }
+            ],
+            "filesize": 1242,
+            "dimensions": [
+                162,
+                41
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/gedungkit.themesawesome.com\/wp-content\/uploads\/sites\/142\/2018\/03\/partner-01.png"
+        },
+        {
+            "filename": "modern-villa-with-pool-and-deck.jpg",
+            "thumbnail_url": "https:\/\/gedungkit.themesawesome.com\/wp-content\/uploads\/sites\/142\/2020\/10\/modern-villa-with-pool-and-deck-600x400.jpg",
+            "templates": [
+                {
+                    "source": "templates\/single-project.json",
+                    "name": "Single Project"
+                },
+                {
+                    "source": "templates\/footer.json",
+                    "name": "Footer"
+                }
+            ],
+            "filesize": 529670,
+            "dimensions": [
+                2000,
+                1334
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/image-H27FA57"
+        },
+        {
+            "filename": "placeholder-1.png",
+            "thumbnail_url": "https:\/\/gedungkit.themesawesome.com\/wp-content\/uploads\/sites\/142\/2020\/10\/placeholder-1-600x400.png",
+            "templates": [
+                {
+                    "source": "templates\/single-post.json",
+                    "name": "Single Post"
+                }
+            ],
+            "filesize": 5441,
+            "dimensions": [
+                1200,
+                800
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/gedungkit.themesawesome.com\/wp-content\/uploads\/sites\/142\/2020\/10\/placeholder-1-600x400.png"
+        },
+        {
+            "filename": "Image-404.png",
+            "thumbnail_url": "https:\/\/gedungkit.themesawesome.com\/wp-content\/uploads\/sites\/142\/2020\/10\/Image-404-600x504.png",
+            "templates": [
+                {
+                    "source": "templates\/404-page.json",
+                    "name": "404 Page"
+                }
+            ],
+            "filesize": 82301,
+            "dimensions": [
+                774,
+                650
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/gedungkit.themesawesome.com\/wp-content\/uploads\/sites\/142\/2020\/10\/Image-404-600x504.png"
+        },
+        {
+            "filename": "3d-rendering-business-meeting-and-working-room-on-office-building.jpg",
+            "thumbnail_url": "https:\/\/gedungkit.themesawesome.com\/wp-content\/uploads\/sites\/142\/2020\/10\/3d-rendering-business-meeting-and-working-room-on-office-building-600x360.jpg",
+            "templates": [
+                {
+                    "source": "templates\/footer.json",
+                    "name": "Footer"
+                }
+            ],
+            "filesize": 706055,
+            "dimensions": [
+                2000,
+                1201
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/image-FLYX7JG"
+        },
+        {
+            "filename": "3d-rendering-modern-loft-dining-room-and-living-room-with-luxury-decor-near-stair.jpg",
+            "thumbnail_url": "https:\/\/gedungkit.themesawesome.com\/wp-content\/uploads\/sites\/142\/2020\/10\/3d-rendering-modern-loft-dining-room-and-living-room-with-luxury-decor-near-stair-600x400.jpg",
+            "templates": [
+                {
+                    "source": "templates\/footer.json",
+                    "name": "Footer"
+                }
+            ],
+            "filesize": 449529,
+            "dimensions": [
+                2000,
+                1333
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/image-BMPHWUK"
+        },
+        {
+            "filename": "gedung-logo2-60s.png",
+            "thumbnail_url": "https:\/\/gedungkit.themesawesome.com\/wp-content\/uploads\/sites\/142\/2018\/03\/gedung-logo2-60s.png",
+            "templates": [
+                {
+                    "source": "templates\/footer.json",
+                    "name": "Footer"
+                },
+                {
+                    "source": "templates\/header-alternative.json",
+                    "name": "Header Alternative"
+                }
+            ],
+            "filesize": 1895,
+            "dimensions": [
+                177,
+                60
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/gedungkit.themesawesome.com\/wp-content\/uploads\/sites\/142\/2018\/03\/gedung-logo2-60s.png"
+        },
+        {
+            "filename": "gedung-logo2-black-60.png",
+            "thumbnail_url": "https:\/\/gedungkit.themesawesome.com\/wp-content\/uploads\/sites\/142\/2018\/03\/gedung-logo2-black-60.png",
+            "templates": [
+                {
+                    "source": "templates\/header-default.json",
+                    "name": "Header Default"
+                }
+            ],
+            "filesize": 1895,
+            "dimensions": [
+                177,
+                60
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/gedungkit.themesawesome.com\/wp-content\/uploads\/sites\/142\/2018\/03\/gedung-logo2-black-60.png"
+        }
+    ]
+}

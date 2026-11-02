@@ -1,0 +1,1189 @@
+{
+    "manifest_version": "1.0.21",
+    "title": "Conztrukta - Template Kit for Construction Company",
+    "page_builder": "elementor",
+    "kit_version": "1.0.0",
+    "templates": [
+        {
+            "name": "Global Kit Styles",
+            "screenshot": "screenshots\/global-kit-styles.jpg",
+            "source": "templates\/global.json",
+            "preview_url": "https:\/\/kitnew.moxcreative.com",
+            "type": "section",
+            "category": "page",
+            "metadata": {
+                "template_type": "global-styles",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "additional_template_information": [
+                    "These are the global theme styles configured through the Elementor Theme Styles area."
+                ]
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Single Service",
+            "screenshot": "screenshots\/single-service.jpg",
+            "source": "templates\/single-service.json",
+            "preview_url": "https:\/\/kitnew.moxcreative.com\/conztrukta\/template-kit\/single-service\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Services",
+            "screenshot": "screenshots\/services.jpg",
+            "source": "templates\/services.json",
+            "preview_url": "https:\/\/kitnew.moxcreative.com\/conztrukta\/template-kit\/services\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "About Us",
+            "screenshot": "screenshots\/about-us.jpg",
+            "source": "templates\/about-us.json",
+            "preview_url": "https:\/\/kitnew.moxcreative.com\/conztrukta\/template-kit\/about-us\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Project",
+            "screenshot": "screenshots\/project.jpg",
+            "source": "templates\/project.json",
+            "preview_url": "https:\/\/kitnew.moxcreative.com\/conztrukta\/template-kit\/project\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Careers",
+            "screenshot": "screenshots\/careers.jpg",
+            "source": "templates\/careers.json",
+            "preview_url": "https:\/\/kitnew.moxcreative.com\/conztrukta\/template-kit\/careers\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Team",
+            "screenshot": "screenshots\/team.jpg",
+            "source": "templates\/team.json",
+            "preview_url": "https:\/\/kitnew.moxcreative.com\/conztrukta\/template-kit\/team\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "FAQ",
+            "screenshot": "screenshots\/faq.jpg",
+            "source": "templates\/faq.json",
+            "preview_url": "https:\/\/kitnew.moxcreative.com\/conztrukta\/template-kit\/faq\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Contact Us",
+            "screenshot": "screenshots\/contact-us.jpg",
+            "source": "templates\/contact-us.json",
+            "preview_url": "https:\/\/kitnew.moxcreative.com\/conztrukta\/template-kit\/contact-us\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Homepage",
+            "screenshot": "screenshots\/homepage.jpg",
+            "source": "templates\/homepage.json",
+            "preview_url": "https:\/\/kitnew.moxcreative.com\/conztrukta\/template-kit\/homepage\/",
+            "type": "section",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-home",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Conztrukta V1 - 404 Page",
+            "screenshot": "screenshots\/conztrukta-v1-404-page.jpg",
+            "source": "templates\/conztrukta-v1-404-page.json",
+            "preview_url": "https:\/\/kitnew.moxcreative.com\/conztrukta\/?elementor_library=conztrukta-v1-404-page",
+            "type": "error-404",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-404",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "elementor_library_type": "error-404",
+                "elementor_pro_conditions": [
+                    "include\/singular\/not_found404"
+                ],
+                "additional_template_information": [
+                    "This is a \"Error 404\" template for Elementor Pro.",
+                    "This template will display on: 404 Page."
+                ]
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Conztrukta V1 - Single Blog",
+            "screenshot": "screenshots\/conztrukta-v1-single-blog.jpg",
+            "source": "templates\/conztrukta-v1-single-blog.json",
+            "preview_url": "https:\/\/kitnew.moxcreative.com\/conztrukta\/?elementor_library=conztrukta-v1-single-blog",
+            "type": "single-post",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-post",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "elementor_library_type": "single-post",
+                "elementor_pro_conditions": [
+                    "include\/singular\/post"
+                ],
+                "additional_template_information": [
+                    "This is a \"Single Post\" template for Elementor Pro.",
+                    "This template will display on: Posts."
+                ]
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Conztrukta V1 - Blog",
+            "screenshot": "screenshots\/conztrukta-v1-blog.jpg",
+            "source": "templates\/conztrukta-v1-blog.json",
+            "preview_url": "https:\/\/kitnew.moxcreative.com\/conztrukta\/?elementor_library=conztrukta-v1-blog",
+            "type": "archive",
+            "category": "page",
+            "metadata": {
+                "template_type": "archive-blog",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "elementor_library_type": "archive",
+                "elementor_pro_conditions": [
+                    "include\/archive"
+                ],
+                "additional_template_information": [
+                    "This is a \"Archive\" template for Elementor Pro.",
+                    "This template will display on: All Archives."
+                ]
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Conztrukta V1 - Footer",
+            "screenshot": "screenshots\/conztrukta-v1-footer.jpg",
+            "source": "templates\/conztrukta-v1-footer.json",
+            "preview_url": "https:\/\/kitnew.moxcreative.com\/conztrukta\/?elementor_library=conztrukta-v1-footer",
+            "type": "footer",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-footer",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "elementor_library_type": "footer",
+                "elementor_pro_conditions": [
+                    "include\/general"
+                ],
+                "additional_template_information": [
+                    "This is a \"Footer\" template for Elementor Pro.",
+                    "This template will display on: Entire Site."
+                ]
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Conztrukta V1 - Header",
+            "screenshot": "screenshots\/conztrukta-v1-header.jpg",
+            "source": "templates\/conztrukta-v1-header.json",
+            "preview_url": "https:\/\/kitnew.moxcreative.com\/conztrukta\/?elementor_library=conztrukta-v1-header",
+            "type": "header",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-header",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "elementor_library_type": "header",
+                "elementor_pro_conditions": [
+                    "include\/general"
+                ],
+                "additional_template_information": [
+                    "This is a \"Header\" template for Elementor Pro.",
+                    "This template will display on: Entire Site."
+                ]
+            },
+            "elementor_pro_required": true
+        }
+    ],
+    "required_plugins": [
+        {
+            "name": "ElementsKit Lite",
+            "version": "2.7.5",
+            "file": "elementskit-lite\/elementskit-lite.php",
+            "author": "Wpmet"
+        },
+        {
+            "name": "Envato Elements",
+            "version": "2.0.11",
+            "file": "envato-elements\/envato-elements.php",
+            "author": "Envato"
+        },
+        {
+            "name": "Skyboot Custom Icons for Elementor - Elementor Icons library",
+            "version": "1.0.5",
+            "file": "skyboot-custom-icons-for-elementor\/skyboot-custom-icons-for-elementor.php",
+            "author": "Skybootstrap"
+        },
+        {
+            "name": "Elementor Pro",
+            "version": "3.7.7",
+            "file": "elementor-pro\/elementor-pro.php",
+            "author": "Elementor.com"
+        }
+    ],
+    "images": [
+        {
+            "filename": "architect-and-engineer-construction-workers-working-at-outdoors-construction-site.jpg",
+            "thumbnail_url": "https:\/\/kitnew.moxcreative.com\/conztrukta\/wp-content\/uploads\/sites\/21\/2022\/11\/architect-and-engineer-construction-workers-working-at-outdoors-construction-site-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/single-service.json",
+                    "name": "Single Service"
+                }
+            ],
+            "filesize": 146654,
+            "dimensions": [
+                1280,
+                853
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-B5A8TM4"
+        },
+        {
+            "filename": "construction-engineer-with-foreman-worker-checking-construction-site-e1669905468418.jpg",
+            "thumbnail_url": "https:\/\/kitnew.moxcreative.com\/conztrukta\/wp-content\/uploads\/sites\/21\/2022\/12\/construction-engineer-with-foreman-worker-checking-construction-site-e1669905468418-800x486.jpg",
+            "templates": [
+                {
+                    "source": "templates\/single-service.json",
+                    "name": "Single Service"
+                },
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                },
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                }
+            ],
+            "filesize": 148068,
+            "dimensions": [
+                1280,
+                777
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-5N7RD4M"
+        },
+        {
+            "filename": "construction-1.jpg",
+            "thumbnail_url": "https:\/\/kitnew.moxcreative.com\/conztrukta\/wp-content\/uploads\/sites\/21\/2022\/11\/construction-1-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/single-service.json",
+                    "name": "Single Service"
+                },
+                {
+                    "source": "templates\/careers.json",
+                    "name": "Careers"
+                },
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                }
+            ],
+            "filesize": 193573,
+            "dimensions": [
+                1280,
+                853
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/image-XJV8V7H"
+        },
+        {
+            "filename": "diagonal-lines-1.png",
+            "thumbnail_url": "https:\/\/kitnew.moxcreative.com\/conztrukta\/wp-content\/uploads\/sites\/21\/2022\/11\/diagonal-lines-1.png",
+            "templates": [
+                {
+                    "source": "templates\/single-service.json",
+                    "name": "Single Service"
+                },
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                },
+                {
+                    "source": "templates\/project.json",
+                    "name": "Project"
+                },
+                {
+                    "source": "templates\/team.json",
+                    "name": "Team"
+                },
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                }
+            ],
+            "filesize": 152,
+            "dimensions": [
+                6,
+                6
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/heropatterns.com\/"
+        },
+        {
+            "filename": "drawings-for-building-house-helmet-and-other-work-2021-09-03-09-26-36-utc-1.jpg",
+            "thumbnail_url": "https:\/\/kitnew.moxcreative.com\/conztrukta\/wp-content\/uploads\/sites\/21\/2022\/12\/drawings-for-building-house-helmet-and-other-work-2021-09-03-09-26-36-utc-1-800x532.jpg",
+            "templates": [
+                {
+                    "source": "templates\/single-service.json",
+                    "name": "Single Service"
+                },
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                },
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                }
+            ],
+            "filesize": 80272,
+            "dimensions": [
+                1280,
+                852
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/drawings-for-building-house-helmet-and-other-worki-FLR4MDM"
+        },
+        {
+            "filename": "Team_1.jpg",
+            "thumbnail_url": "https:\/\/kitnew.moxcreative.com\/conztrukta\/wp-content\/uploads\/sites\/21\/2022\/11\/Team_1.jpg",
+            "templates": [
+                {
+                    "source": "templates\/single-service.json",
+                    "name": "Single Service"
+                },
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                },
+                {
+                    "source": "templates\/team.json",
+                    "name": "Team"
+                },
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                }
+            ],
+            "filesize": 53623,
+            "dimensions": [
+                700,
+                700
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/confident-businessman-at-construction-site-CZCAGAK"
+        },
+        {
+            "filename": "Team_4.jpg",
+            "thumbnail_url": "https:\/\/kitnew.moxcreative.com\/conztrukta\/wp-content\/uploads\/sites\/21\/2022\/11\/Team_4.jpg",
+            "templates": [
+                {
+                    "source": "templates\/single-service.json",
+                    "name": "Single Service"
+                },
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                },
+                {
+                    "source": "templates\/team.json",
+                    "name": "Team"
+                },
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                }
+            ],
+            "filesize": 44187,
+            "dimensions": [
+                700,
+                700
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/serious-businesswoman-H834A5E"
+        },
+        {
+            "filename": "Team_3.jpg",
+            "thumbnail_url": "https:\/\/kitnew.moxcreative.com\/conztrukta\/wp-content\/uploads\/sites\/21\/2022\/11\/Team_3.jpg",
+            "templates": [
+                {
+                    "source": "templates\/single-service.json",
+                    "name": "Single Service"
+                },
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                },
+                {
+                    "source": "templates\/team.json",
+                    "name": "Team"
+                },
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                }
+            ],
+            "filesize": 58908,
+            "dimensions": [
+                700,
+                700
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/portrait-of-confident-businessman-X27ZKYA"
+        },
+        {
+            "filename": "construction-of-building.jpg",
+            "thumbnail_url": "https:\/\/kitnew.moxcreative.com\/conztrukta\/wp-content\/uploads\/sites\/21\/2022\/11\/construction-of-building-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                },
+                {
+                    "source": "templates\/team.json",
+                    "name": "Team"
+                },
+                {
+                    "source": "templates\/faq.json",
+                    "name": "FAQ"
+                },
+                {
+                    "source": "templates\/contact-us.json",
+                    "name": "Contact Us"
+                },
+                {
+                    "source": "templates\/conztrukta-v1-single-blog.json",
+                    "name": "Conztrukta V1 - Single Blog"
+                },
+                {
+                    "source": "templates\/conztrukta-v1-blog.json",
+                    "name": "Conztrukta V1 - Blog"
+                }
+            ],
+            "filesize": 205950,
+            "dimensions": [
+                1280,
+                853
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/image-H8EYM6F"
+        },
+        {
+            "filename": "BG1.jpg",
+            "thumbnail_url": "https:\/\/kitnew.moxcreative.com\/conztrukta\/wp-content\/uploads\/sites\/21\/2022\/11\/BG1-800x350.jpg",
+            "templates": [
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                },
+                {
+                    "source": "templates\/careers.json",
+                    "name": "Careers"
+                },
+                {
+                    "source": "templates\/team.json",
+                    "name": "Team"
+                },
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                }
+            ],
+            "filesize": 61122,
+            "dimensions": [
+                1280,
+                559
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/www.freepik.com\/free-vector\/architecture-background-design_1003813.htm#from_view=detail_author"
+        },
+        {
+            "filename": "construction-site-e1669973786166.jpg",
+            "thumbnail_url": "https:\/\/kitnew.moxcreative.com\/conztrukta\/wp-content\/uploads\/sites\/21\/2022\/11\/construction-site-e1669973786166-800x534.jpg",
+            "templates": [
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                },
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                },
+                {
+                    "source": "templates\/conztrukta-v1-footer.json",
+                    "name": "Conztrukta V1 - Footer"
+                }
+            ],
+            "filesize": 149963,
+            "dimensions": [
+                1080,
+                721
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/image-4CGM49X"
+        },
+        {
+            "filename": "workers-on-a-construction-site-engineering-and-architectural-workplace-.jpg",
+            "thumbnail_url": "https:\/\/kitnew.moxcreative.com\/conztrukta\/wp-content\/uploads\/sites\/21\/2022\/11\/workers-on-a-construction-site-engineering-and-architectural-workplace--800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                },
+                {
+                    "source": "templates\/team.json",
+                    "name": "Team"
+                },
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                },
+                {
+                    "source": "templates\/conztrukta-v1-footer.json",
+                    "name": "Conztrukta V1 - Footer"
+                }
+            ],
+            "filesize": 180437,
+            "dimensions": [
+                1280,
+                853
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/image-Z9QZ5Y3"
+        },
+        {
+            "filename": "under-construction.jpg",
+            "thumbnail_url": "https:\/\/kitnew.moxcreative.com\/conztrukta\/wp-content\/uploads\/sites\/21\/2022\/11\/under-construction-800x400.jpg",
+            "templates": [
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                },
+                {
+                    "source": "templates\/team.json",
+                    "name": "Team"
+                },
+                {
+                    "source": "templates\/faq.json",
+                    "name": "FAQ"
+                },
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                }
+            ],
+            "filesize": 124602,
+            "dimensions": [
+                1280,
+                640
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/image-PU92FX4"
+        },
+        {
+            "filename": "construction-crane-is-involved-in-construction-of-a-new-multi-st-e1669973820545.jpg",
+            "thumbnail_url": "https:\/\/kitnew.moxcreative.com\/conztrukta\/wp-content\/uploads\/sites\/21\/2022\/11\/construction-crane-is-involved-in-construction-of-a-new-multi-st-e1669973820545-800x1200.jpg",
+            "templates": [
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                },
+                {
+                    "source": "templates\/contact-us.json",
+                    "name": "Contact Us"
+                },
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                }
+            ],
+            "filesize": 179538,
+            "dimensions": [
+                940,
+                1410
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/image-DSJG4BY"
+        },
+        {
+            "filename": "construction-of-the-subway-e1669973843174.jpg",
+            "thumbnail_url": "https:\/\/kitnew.moxcreative.com\/conztrukta\/wp-content\/uploads\/sites\/21\/2022\/11\/construction-of-the-subway-e1669973843174-800x527.jpg",
+            "templates": [
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                },
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                },
+                {
+                    "source": "templates\/conztrukta-v1-footer.json",
+                    "name": "Conztrukta V1 - Footer"
+                }
+            ],
+            "filesize": 195508,
+            "dimensions": [
+                1080,
+                712
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/image-PKLD9GL"
+        },
+        {
+            "filename": "creative-modern-architecture-.jpg",
+            "thumbnail_url": "https:\/\/kitnew.moxcreative.com\/conztrukta\/wp-content\/uploads\/sites\/21\/2022\/12\/creative-modern-architecture--800x534.jpg",
+            "templates": [
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                },
+                {
+                    "source": "templates\/project.json",
+                    "name": "Project"
+                },
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                }
+            ],
+            "filesize": 188370,
+            "dimensions": [
+                1280,
+                854
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/image-S7PFJZ4"
+        },
+        {
+            "filename": "modern-buildings-at-citylife-milan.jpg",
+            "thumbnail_url": "https:\/\/kitnew.moxcreative.com\/conztrukta\/wp-content\/uploads\/sites\/21\/2022\/12\/modern-buildings-at-citylife-milan-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                },
+                {
+                    "source": "templates\/project.json",
+                    "name": "Project"
+                },
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                }
+            ],
+            "filesize": 109901,
+            "dimensions": [
+                1280,
+                853
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/image-VC2RX87"
+        },
+        {
+            "filename": "germany-hannover-futuristic-architecture-of-nord-lb-building-e1669973864811.jpg",
+            "thumbnail_url": "https:\/\/kitnew.moxcreative.com\/conztrukta\/wp-content\/uploads\/sites\/21\/2022\/12\/germany-hannover-futuristic-architecture-of-nord-lb-building-e1669973864811-800x600.jpg",
+            "templates": [
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                },
+                {
+                    "source": "templates\/project.json",
+                    "name": "Project"
+                },
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                }
+            ],
+            "filesize": 143507,
+            "dimensions": [
+                1080,
+                810
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/image-RFH4CC9"
+        },
+        {
+            "filename": "construction-engineers-discussion-with-architects-at-construction-or-building-site.jpg",
+            "thumbnail_url": "https:\/\/kitnew.moxcreative.com\/conztrukta\/wp-content\/uploads\/sites\/21\/2022\/12\/construction-engineers-discussion-with-architects-at-construction-or-building-site-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                },
+                {
+                    "source": "templates\/project.json",
+                    "name": "Project"
+                },
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                }
+            ],
+            "filesize": 136393,
+            "dimensions": [
+                1280,
+                853
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-7NQ9PJZ"
+        },
+        {
+            "filename": "futuristic-cityscape-with-modern-buildings-skyscrapers-abstract-background-with-city-of-the-future-e1669735120503.jpg",
+            "thumbnail_url": "https:\/\/kitnew.moxcreative.com\/conztrukta\/wp-content\/uploads\/sites\/21\/2022\/11\/futuristic-cityscape-with-modern-buildings-skyscrapers-abstract-background-with-city-of-the-future-e1669735120503-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/project.json",
+                    "name": "Project"
+                },
+                {
+                    "source": "templates\/faq.json",
+                    "name": "FAQ"
+                },
+                {
+                    "source": "templates\/conztrukta-v1-single-blog.json",
+                    "name": "Conztrukta V1 - Single Blog"
+                },
+                {
+                    "source": "templates\/conztrukta-v1-footer.json",
+                    "name": "Conztrukta V1 - Footer"
+                }
+            ],
+            "filesize": 187418,
+            "dimensions": [
+                1280,
+                853
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/image-ZAQGAAD"
+        },
+        {
+            "filename": "modern-glass-building-e1669973886332.jpg",
+            "thumbnail_url": "https:\/\/kitnew.moxcreative.com\/conztrukta\/wp-content\/uploads\/sites\/21\/2022\/12\/modern-glass-building-e1669973886332-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/project.json",
+                    "name": "Project"
+                }
+            ],
+            "filesize": 172441,
+            "dimensions": [
+                1080,
+                719
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/image-BWE32RB"
+        },
+        {
+            "filename": "exterior-of-a-modern-building-e1669973906432.jpg",
+            "thumbnail_url": "https:\/\/kitnew.moxcreative.com\/conztrukta\/wp-content\/uploads\/sites\/21\/2022\/12\/exterior-of-a-modern-building-e1669973906432-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/project.json",
+                    "name": "Project"
+                }
+            ],
+            "filesize": 185536,
+            "dimensions": [
+                1080,
+                720
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/image-PTE9B65"
+        },
+        {
+            "filename": "team-engineering-worker-technician-workshop-manufacturing-teamwork-in-industry-factory-.jpg",
+            "thumbnail_url": "https:\/\/kitnew.moxcreative.com\/conztrukta\/wp-content\/uploads\/sites\/21\/2022\/11\/team-engineering-worker-technician-workshop-manufacturing-teamwork-in-industry-factory--800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/careers.json",
+                    "name": "Careers"
+                }
+            ],
+            "filesize": 176148,
+            "dimensions": [
+                1280,
+                853
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-4WWKTPJ"
+        },
+        {
+            "filename": "structural-engineer-and-architect-dressed-in-orange-work-vests-and-helmets-shake-hands-on-the.jpg",
+            "thumbnail_url": "https:\/\/kitnew.moxcreative.com\/conztrukta\/wp-content\/uploads\/sites\/21\/2022\/11\/structural-engineer-and-architect-dressed-in-orange-work-vests-and-helmets-shake-hands-on-the-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/careers.json",
+                    "name": "Careers"
+                }
+            ],
+            "filesize": 128881,
+            "dimensions": [
+                1280,
+                853
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-TEDP8YT"
+        },
+        {
+            "filename": "construction.jpg",
+            "thumbnail_url": "https:\/\/kitnew.moxcreative.com\/conztrukta\/wp-content\/uploads\/sites\/21\/2022\/11\/construction-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/careers.json",
+                    "name": "Careers"
+                },
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                },
+                {
+                    "source": "templates\/conztrukta-v1-footer.json",
+                    "name": "Conztrukta V1 - Footer"
+                }
+            ],
+            "filesize": 266533,
+            "dimensions": [
+                1280,
+                853
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/image-9VJXFH2"
+        },
+        {
+            "filename": "group-of-multiethnic-construction-workers-in-row-l-2022-11-02-01-58-08-utc.png",
+            "thumbnail_url": "https:\/\/kitnew.moxcreative.com\/conztrukta\/wp-content\/uploads\/sites\/21\/2022\/11\/group-of-multiethnic-construction-workers-in-row-l-2022-11-02-01-58-08-utc.png",
+            "templates": [
+                {
+                    "source": "templates\/careers.json",
+                    "name": "Careers"
+                }
+            ],
+            "filesize": 155922,
+            "dimensions": [
+                700,
+                685
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/group-of-multiethnic-construction-workers-in-row-l-TPW7FCB"
+        },
+        {
+            "filename": "Team_2.jpg",
+            "thumbnail_url": "https:\/\/kitnew.moxcreative.com\/conztrukta\/wp-content\/uploads\/sites\/21\/2022\/11\/Team_2.jpg",
+            "templates": [
+                {
+                    "source": "templates\/team.json",
+                    "name": "Team"
+                }
+            ],
+            "filesize": 61522,
+            "dimensions": [
+                700,
+                700
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/smart-indian-man-carrying-a-laptop-pouch-9Z343RN"
+        },
+        {
+            "filename": "Team_8.jpg",
+            "thumbnail_url": "https:\/\/kitnew.moxcreative.com\/conztrukta\/wp-content\/uploads\/sites\/21\/2022\/11\/Team_8.jpg",
+            "templates": [
+                {
+                    "source": "templates\/team.json",
+                    "name": "Team"
+                }
+            ],
+            "filesize": 79452,
+            "dimensions": [
+                700,
+                700
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/manual-worker-in-the-plant-HJ8CQAH"
+        },
+        {
+            "filename": "Team_5.jpg",
+            "thumbnail_url": "https:\/\/kitnew.moxcreative.com\/conztrukta\/wp-content\/uploads\/sites\/21\/2022\/11\/Team_5.jpg",
+            "templates": [
+                {
+                    "source": "templates\/team.json",
+                    "name": "Team"
+                }
+            ],
+            "filesize": 58822,
+            "dimensions": [
+                700,
+                700
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/foreman-or-worker-work-at-factory-site-check-up-ma-4REN58R"
+        },
+        {
+            "filename": "Team_7.jpg",
+            "thumbnail_url": "https:\/\/kitnew.moxcreative.com\/conztrukta\/wp-content\/uploads\/sites\/21\/2022\/11\/Team_7.jpg",
+            "templates": [
+                {
+                    "source": "templates\/team.json",
+                    "name": "Team"
+                }
+            ],
+            "filesize": 78559,
+            "dimensions": [
+                700,
+                700
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/female-worker-with-angle-grinder-in-a-warehouse-P4KJFC2"
+        },
+        {
+            "filename": "Team_6.jpg",
+            "thumbnail_url": "https:\/\/kitnew.moxcreative.com\/conztrukta\/wp-content\/uploads\/sites\/21\/2022\/11\/Team_6.jpg",
+            "templates": [
+                {
+                    "source": "templates\/team.json",
+                    "name": "Team"
+                }
+            ],
+            "filesize": 83995,
+            "dimensions": [
+                700,
+                700
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/cheerful-worker-in-helmet-and-safety-vest-with-cro-TC6WEFD"
+        },
+        {
+            "filename": "smiling-woman-at-construction-site-e1669973952701.jpg",
+            "thumbnail_url": "https:\/\/kitnew.moxcreative.com\/conztrukta\/wp-content\/uploads\/sites\/21\/2022\/11\/smiling-woman-at-construction-site-e1669973952701-800x1200.jpg",
+            "templates": [
+                {
+                    "source": "templates\/faq.json",
+                    "name": "FAQ"
+                }
+            ],
+            "filesize": 161045,
+            "dimensions": [
+                940,
+                1410
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-EABC8Y2"
+        },
+        {
+            "filename": "group-of-multiethnic-construction-workers-with-fol-2022-11-02-01-28-55-utc.png",
+            "thumbnail_url": "https:\/\/kitnew.moxcreative.com\/conztrukta\/wp-content\/uploads\/sites\/21\/2022\/11\/group-of-multiethnic-construction-workers-with-fol-2022-11-02-01-28-55-utc-800x724.png",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                }
+            ],
+            "filesize": 205633,
+            "dimensions": [
+                840,
+                760
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/group-of-multiethnic-construction-workers-with-fol-EM55T6C"
+        },
+        {
+            "filename": "construction-worker-hardhat-blueprints-and-construction-level-top-view.jpg",
+            "thumbnail_url": "https:\/\/kitnew.moxcreative.com\/conztrukta\/wp-content\/uploads\/sites\/21\/2022\/11\/construction-worker-hardhat-blueprints-and-construction-level-top-view-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/conztrukta-v1-404-page.json",
+                    "name": "Conztrukta V1 - 404 Page"
+                }
+            ],
+            "filesize": 161364,
+            "dimensions": [
+                1280,
+                853
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/image-F4S47YF"
+        },
+        {
+            "filename": "World-Map-a.png",
+            "thumbnail_url": "https:\/\/kitnew.moxcreative.com\/conztrukta\/wp-content\/uploads\/sites\/21\/2022\/11\/World-Map-a-800x386.png",
+            "templates": [
+                {
+                    "source": "templates\/conztrukta-v1-footer.json",
+                    "name": "Conztrukta V1 - Footer"
+                }
+            ],
+            "filesize": 148539,
+            "dimensions": [
+                1450,
+                700
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/www.freepik.com\/free-vector\/continents-world-background_16351373.htm#query=world%20map&from_query=halftone%20world%20map&position=24&from_view=search&track=sph"
+        },
+        {
+            "filename": "Logo_Conztrukta_4.png",
+            "thumbnail_url": "https:\/\/kitnew.moxcreative.com\/conztrukta\/wp-content\/uploads\/sites\/21\/2022\/11\/Logo_Conztrukta_4.png",
+            "templates": [
+                {
+                    "source": "templates\/conztrukta-v1-footer.json",
+                    "name": "Conztrukta V1 - Footer"
+                }
+            ],
+            "filesize": 5074,
+            "dimensions": [
+                272,
+                190
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/konztrukt-architecture-logo-template-E249NKN"
+        },
+        {
+            "filename": "building-activity-on-contruction-site.jpg",
+            "thumbnail_url": "https:\/\/kitnew.moxcreative.com\/conztrukta\/wp-content\/uploads\/sites\/21\/2022\/11\/building-activity-on-contruction-site-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/conztrukta-v1-footer.json",
+                    "name": "Conztrukta V1 - Footer"
+                }
+            ],
+            "filesize": 176710,
+            "dimensions": [
+                1280,
+                853
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/image-DHMS2HM"
+        },
+        {
+            "filename": "Logo_Conztrukta_1.png",
+            "thumbnail_url": "https:\/\/kitnew.moxcreative.com\/conztrukta\/wp-content\/uploads\/sites\/21\/2022\/11\/Logo_Conztrukta_1.png",
+            "templates": [
+                {
+                    "source": "templates\/conztrukta-v1-header.json",
+                    "name": "Conztrukta V1 - Header"
+                }
+            ],
+            "filesize": 4253,
+            "dimensions": [
+                353,
+                70
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/konztrukt-architecture-logo-template-E249NKN"
+        }
+    ]
+}
