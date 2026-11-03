@@ -207,7 +207,7 @@ window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(argumen
     color: rgb(255, 255, 255, 0.85) !important;
 }
 </style>
-<style>.convex-contact-honeypot{position:absolute!important;left:-9999px!important;width:1px;height:1px;overflow:hidden}#convex-contact-form .forminator-row{margin-bottom:16px}#convex-contact-form .forminator-field{width:100%}#convex-contact-form .forminator-input,#convex-contact-form .forminator-textarea{width:100%;box-sizing:border-box}#convex-contact-status{margin-top:14px}</style>
+<style>.convex-contact-honeypot{position:absolute!important;left:-9999px!important;width:1px;height:1px;overflow:hidden}#convex-contact-form .forminator-row{margin-bottom:16px}#convex-contact-form .forminator-field{width:100%}#convex-contact-form .forminator-input,#convex-contact-form .forminator-textarea{width:100%;box-sizing:border-box}#convex-contact-status{margin-top:18px}#convex-contact-status[hidden]{display:none!important}.convex-form-feedback{display:flex;align-items:flex-start;gap:14px;padding:22px 24px;border-radius:12px;border:1px solid #b8dfca;background:#f0faf4;color:#174d31;box-shadow:0 8px 24px rgba(0,0,0,.05)}.convex-form-feedback--error{background:#fff5f4;border-color:#efc4c0;color:#8b2821}.convex-form-feedback--sending{background:#f4f7fb;border-color:#d9e2ee;color:#30475f}.convex-form-feedback__icon{flex:none;width:36px;height:36px;border-radius:50%;display:grid;place-items:center;background:#d3f1df;color:#167347;font-size:22px;font-weight:700}.convex-form-feedback--error .convex-form-feedback__icon{background:#ffe2df;color:#b3362d}.convex-form-feedback--sending .convex-form-feedback__icon{background:#e1eaf6;color:#426184}.convex-form-feedback__title{font-size:19px;font-weight:700;line-height:1.35;margin:0 0 5px}.convex-form-feedback__message{font-size:15px;line-height:1.6;margin:0}</style>
 <script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>
 </head>
 <body class="wp-singular page-template page-template-elementor_header_footer page page-id-208 wp-theme-hello-elementor ehf-template-hello-elementor ehf-stylesheet-hello-elementor elementor-default elementor-template-full-width elementor-kit-940 elementor-page elementor-page-208">
@@ -632,19 +632,32 @@ var e="script#wp-emoji-settings",t=document.querySelector(e);if(!(t instanceof H
 (function(){
 var form=document.getElementById('convex-contact-form');if(!form)return;
 var status=document.getElementById('convex-contact-status'),button=form.querySelector('button[type="submit"]');
+status.hidden=true;
+function feedback(kind,title,message){
+status.hidden=false;
+status.className='convex-form-feedback convex-form-feedback--'+kind;
+status.replaceChildren();
+var icon=document.createElement('span');icon.className='convex-form-feedback__icon';icon.setAttribute('aria-hidden','true');icon.textContent=kind==='success'?'✓':kind==='error'?'!':'…';
+var content=document.createElement('div');
+var heading=document.createElement('p');heading.className='convex-form-feedback__title';heading.textContent=title;
+var detail=document.createElement('p');detail.className='convex-form-feedback__message';detail.textContent=message;
+content.append(heading,detail);status.append(icon,content);
+status.setAttribute('role',kind==='error'?'alert':'status');
+}
 form.addEventListener('submit',async function(event){
 event.preventDefault();
 if(!form.reportValidity())return;
 var data=new FormData(form);
-if(!data.get('cf-turnstile-response')){status.textContent='Please complete the spam protection check.';return;}
-button.disabled=true;status.textContent='Sending your message…';
+if(!data.get('cf-turnstile-response')){feedback('error','Verification needed','Please complete the spam protection check and try again.');return;}
+button.disabled=true;feedback('sending','Sending your message…','Please wait while we submit your request.');
 try{
 var response=await fetch('/api/contact',{method:'POST',body:data,headers:{'Accept':'application/json'}});
 var result=await response.json();
 if(!response.ok||!result.ok)throw new Error(result.error||'Message could not be sent.');
-status.textContent='Thanks! Your message has been sent.';form.reset();
+form.reset();
 if(window.turnstile)window.turnstile.reset();
-}catch(error){status.textContent=error.message||'Unable to send your message. Please try again.';if(window.turnstile)window.turnstile.reset();}
+feedback('success','Thank you for reaching out!','Your message has been sent to Convex Construction. Our team will review your request and get back to you as soon as possible.');
+}catch(error){feedback('error','We couldn’t send your message',error.message||'Please try again in a moment.');if(window.turnstile)window.turnstile.reset();}
 finally{button.disabled=false;}
 });
 })();
