@@ -521,5 +521,82 @@ var e="script#wp-emoji-settings",t=document.querySelector(e);if(!(t instanceof H
 //# sourceURL=/wp-includes/js/wp-emoji-loader.min.js
 </script>
 
+
+<!-- Static gallery lightbox: replaces the WordPress AJAX-only Photo Gallery popup. -->
+<style id="convex-static-gallery-style">
+#convex-lightbox[hidden]{display:none!important}
+#convex-lightbox{position:fixed;inset:0;z-index:2147483647;background:rgba(0,0,0,.94);display:flex;align-items:center;justify-content:center;padding:60px 70px;box-sizing:border-box}
+#convex-lightbox img{display:block;max-width:100%;max-height:calc(100dvh - 120px);width:auto;height:auto;object-fit:contain;box-shadow:0 12px 55px #0008}
+#convex-lightbox button{position:absolute;border:0;border-radius:50%;background:rgba(255,255,255,.15);color:white;cursor:pointer;display:grid;place-items:center;font:32px/1 Arial,sans-serif;width:48px;height:48px}
+#convex-lightbox button:hover,#convex-lightbox button:focus-visible{background:rgba(255,255,255,.32);outline:2px solid white;outline-offset:2px}
+#convex-lightbox .convex-close{top:12px;right:18px}
+#convex-lightbox .convex-prev{left:12px;top:50%;transform:translateY(-50%)}
+#convex-lightbox .convex-next{right:12px;top:50%;transform:translateY(-50%)}
+#convex-lightbox .convex-count{position:absolute;bottom:16px;left:0;right:0;text-align:center;color:#fff;font:14px/1.5 Arial,sans-serif;pointer-events:none}
+@media(max-width:600px){#convex-lightbox{padding:66px 52px}#convex-lightbox button{width:40px;height:40px;font-size:26px}#convex-lightbox img{max-height:calc(100dvh - 138px)}}
+</style>
+<div id="convex-lightbox" role="dialog" aria-modal="true" aria-label="Past Projects photo viewer" tabindex="-1" hidden>
+<button type="button" class="convex-close" aria-label="Close photo viewer">&times;</button>
+<button type="button" class="convex-prev" aria-label="Previous photo">&#8249;</button>
+<img alt="Past project photo">
+<button type="button" class="convex-next" aria-label="Next photo">&#8250;</button>
+<div class="convex-count" aria-live="polite"></div>
+</div>
+<script id="convex-static-gallery-script">
+(function(){
+  const modal=document.getElementById('convex-lightbox');
+  if(!modal)return;
+  const img=modal.querySelector('img');
+  const count=modal.querySelector('.convex-count');
+  const links=Array.from(document.querySelectorAll('a.bwg_lightbox[href]'));
+  if(!links.length)return;
+  let index=0, previousFocus=null, previousOverflow='';
+  function show(number){
+    index=(number+links.length)%links.length;
+    const anchor=links[index];
+    img.src=anchor.href;
+    img.alt=(anchor.querySelector('img')?.alt||'Past project photo');
+    count.textContent=(index+1)+' / '+links.length;
+  }
+  function open(number){
+    previousFocus=document.activeElement;
+    previousOverflow=document.body.style.overflow;
+    modal.hidden=false;
+    document.body.style.overflow='hidden';
+    show(number);
+    modal.querySelector('.convex-close').focus();
+  }
+  function close(){
+    modal.hidden=true;
+    img.removeAttribute('src');
+    document.body.style.overflow=previousOverflow;
+    if(previousFocus&&typeof previousFocus.focus==='function')previousFocus.focus();
+  }
+  links.forEach((anchor,i)=>{
+    anchor.addEventListener('click',function(event){
+      event.preventDefault();
+      event.stopImmediatePropagation();
+      open(i);
+    },true);
+  });
+  modal.querySelector('.convex-close').addEventListener('click',close);
+  modal.querySelector('.convex-prev').addEventListener('click',()=>show(index-1));
+  modal.querySelector('.convex-next').addEventListener('click',()=>show(index+1));
+  modal.addEventListener('click',event=>{if(event.target===modal)close();});
+  document.addEventListener('keydown',event=>{
+    if(modal.hidden)return;
+    if(event.key==='Escape'){event.preventDefault();close();}
+    else if(event.key==='ArrowLeft'){event.preventDefault();show(index-1);}
+    else if(event.key==='ArrowRight'){event.preventDefault();show(index+1);}
+    else if(event.key==='Tab'){
+      const controls=Array.from(modal.querySelectorAll('button'));
+      const first=controls[0],last=controls[controls.length-1];
+      if(event.shiftKey&&document.activeElement===first){event.preventDefault();last.focus();}
+      else if(!event.shiftKey&&document.activeElement===last){event.preventDefault();first.focus();}
+    }
+  });
+})();
+</script>
+
 </body>
 </html>
