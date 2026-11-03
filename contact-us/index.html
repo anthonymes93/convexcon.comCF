@@ -207,7 +207,7 @@ window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(argumen
     color: rgb(255, 255, 255, 0.85) !important;
 }
 </style>
-<style>.convex-contact-honeypot{position:absolute!important;left:-9999px!important;width:1px;height:1px;overflow:hidden}#convex-contact-form .forminator-row{margin-bottom:16px}#convex-contact-form .forminator-field{width:100%}#convex-contact-form .forminator-input,#convex-contact-form .forminator-textarea{width:100%;box-sizing:border-box}#convex-contact-status{margin-top:18px}#convex-contact-status[hidden]{display:none!important}.convex-form-feedback{display:flex;align-items:flex-start;gap:14px;padding:22px 24px;border-radius:12px;border:1px solid #b8dfca;background:#f0faf4;color:#174d31;box-shadow:0 8px 24px rgba(0,0,0,.05)}.convex-form-feedback--error{background:#fff5f4;border-color:#efc4c0;color:#8b2821}.convex-form-feedback--sending{background:#f4f7fb;border-color:#d9e2ee;color:#30475f}.convex-form-feedback__icon{flex:none;width:36px;height:36px;border-radius:50%;display:grid;place-items:center;background:#d3f1df;color:#167347;font-size:22px;font-weight:700}.convex-form-feedback--error .convex-form-feedback__icon{background:#ffe2df;color:#b3362d}.convex-form-feedback--sending .convex-form-feedback__icon{background:#e1eaf6;color:#426184}.convex-form-feedback__title{font-size:19px;font-weight:700;line-height:1.35;margin:0 0 5px}.convex-form-feedback__message{font-size:15px;line-height:1.6;margin:0}</style>
+<style>.convex-contact-honeypot{position:absolute!important;left:-9999px!important;width:1px;height:1px;overflow:hidden}#convex-contact-form .forminator-row{margin-bottom:16px}#convex-contact-form .forminator-field{width:100%}#convex-contact-form .forminator-input,#convex-contact-form .forminator-textarea{width:100%;box-sizing:border-box}#convex-contact-status{margin-top:18px}#convex-contact-status[hidden]{display:none!important}.convex-form-feedback{display:flex;align-items:flex-start;gap:14px;padding:22px 24px;border-radius:12px;border:1px solid #b8dfca;background:#f0faf4;color:#174d31;box-shadow:0 8px 24px rgba(0,0,0,.05)}.convex-form-feedback--success{width:100%;box-sizing:border-box;min-height:420px;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:48px 36px;border-radius:14px;background:linear-gradient(145deg,#f0faf4,#fff);border:1px solid #c6e6d1;box-shadow:0 12px 32px rgba(0,0,0,.06)}.convex-form-feedback--success .convex-form-feedback__icon{width:76px;height:76px;font-size:38px;margin-bottom:12px;background:#d6f4e1}.convex-form-feedback--success .convex-form-feedback__title{font-size:clamp(24px,3vw,32px);line-height:1.2;margin-bottom:14px;color:#174d31}.convex-form-feedback--success .convex-form-feedback__message{max-width:470px;font-size:16px;line-height:1.75;color:#426451}.convex-form-feedback--error{background:#fff5f4;border-color:#efc4c0;color:#8b2821}.convex-form-feedback--sending{background:#f4f7fb;border-color:#d9e2ee;color:#30475f}.convex-form-feedback__icon{flex:none;width:36px;height:36px;border-radius:50%;display:grid;place-items:center;background:#d3f1df;color:#167347;font-size:22px;font-weight:700}.convex-form-feedback--error .convex-form-feedback__icon{background:#ffe2df;color:#b3362d}.convex-form-feedback--sending .convex-form-feedback__icon{background:#e1eaf6;color:#426184}.convex-form-feedback__title{font-size:19px;font-weight:700;line-height:1.35;margin:0 0 5px}.convex-form-feedback__message{font-size:15px;line-height:1.6;margin:0}</style>
 <script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>
 <!-- Convex Construction contact form deployment -->
 </head>
@@ -655,9 +655,14 @@ try{
 var response=await fetch('/api/contact',{method:'POST',body:data,headers:{'Accept':'application/json'}});
 var result=await response.json();
 if(!response.ok||!result.ok)throw new Error(result.error||'Message could not be sent.');
+var formHeight=form.getBoundingClientRect().height;
 form.reset();
 if(window.turnstile)window.turnstile.reset();
+form.after(status);
+form.style.display='none';
 feedback('success','Thank you for reaching out!','Your message has been sent to Convex Construction. Our team will review your request and get back to you as soon as possible.');
+status.style.minHeight=Math.max(420,Math.round(formHeight))+'px';
+status.style.marginTop='0';
 }catch(error){feedback('error','We couldn’t send your message',error.message||'Please try again in a moment.');if(window.turnstile)window.turnstile.reset();}
 finally{button.disabled=false;}
 });
