@@ -19,7 +19,9 @@ export async function onRequestPost({request,env}){
   }catch{return json({ok:false,error:"Spam protection unavailable. Try again."},502);}
   if(!verification.success)return json({ok:false,error:"Spam protection failed. Please try again."},403);
   const from=env.CONTACT_FROM_EMAIL;
-  const payload={from,to:["emails@rtuino.com"],reply_to:email,subject:"Convex Construction website enquiry",text:`Name: ${name}\nEmail: ${email}\nPhone: ${phone||"Not provided"}\n\nMessage:\n${message}`,html:`<h2>New website enquiry</h2><p><strong>Name:</strong> ${escapeHtml(name)}</p><p><strong>Email:</strong> ${escapeHtml(email)}</p><p><strong>Phone:</strong> ${escapeHtml(phone||"Not provided")}</p><p><strong>Message:</strong></p><p style="white-space:pre-wrap">${escapeHtml(message)}</p>`};
+  const to=clean(env.CONTACT_TO_EMAIL,254);
+  if(!to||!/^\S+@\S+\.\S+$/.test(to))return json({ok:false,error:"Contact form recipient is not configured."},503);
+  const payload={from,to:[to],reply_to:email,subject:"Convex Construction website enquiry",text:`Name: ${name}\nEmail: ${email}\nPhone: ${phone||"Not provided"}\n\nMessage:\n${message}`,html:`<h2>New website enquiry</h2><p><strong>Name:</strong> ${escapeHtml(name)}</p><p><strong>Email:</strong> ${escapeHtml(email)}</p><p><strong>Phone:</strong> ${escapeHtml(phone||"Not provided")}</p><p><strong>Message:</strong></p><p style="white-space:pre-wrap">${escapeHtml(message)}</p>`};
   try{
     const result=await fetch("https://api.resend.com/emails",{method:"POST",headers:{"Authorization":"Bearer "+env.RESEND_API_KEY,"Content-Type":"application/json"},body:JSON.stringify(payload)});
     if(!result.ok){console.error("Resend delivery failed",result.status,await result.text());return json({ok:false,error:"Email delivery failed. Please try again later."},502);}
