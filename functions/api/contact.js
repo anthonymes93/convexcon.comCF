@@ -38,4 +38,5 @@ export async function onRequestPost({request,env}){
     return json({ok:true});
   }catch{return json({ok:false,error:"Email service unavailable. Please try again."},502);}
 }
+// Contact endpoint: POST only.
 export function onRequestGet(){return json({ok:false,error:"Method not allowed."},405);}
